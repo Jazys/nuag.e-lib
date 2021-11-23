@@ -1,0 +1,26 @@
+{
+  "name": "nuage-lib",
+  "version": "1.0.0",
+  "description": "A simple library to use nuag.e service for creating VPS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "jacquemet.julien@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.5.0",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^16.11.8",
+    "axios": "^0.24.0",
+    "dotenv": "^10.0.0"
+  }
+}
