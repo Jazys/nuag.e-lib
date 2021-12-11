@@ -15,5 +15,13 @@ export interface KeyPairParams {
     md5:string;
 }
 
+export interface ProjectParams{
+    id:string;
+    driverType:string;
+    name:string;
+    description:string;
+    createdAt:string;
+}
+
 
 
