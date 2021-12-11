@@ -13,9 +13,11 @@ TODO :
 ----------------
 
 # using require
+```javascript
 const { getWorkspaceNuage, createServer, getIpServer, CORE, RAM, DISK  } = require('nuage-lib');
+ ```
 
-how to use lib :
+How to use lib :
 
 Using promise to connect to your workspace
 ```javascript
@@ -27,9 +29,6 @@ getWorkspaceNuage({
   account_org // name of your organization
 }).then((res) => if(res) console.log("ok"));
  ```
-
- Using promise to create a Server
- async function createServer(projectName:string,ram:number, core:number, diskSize:number, osName:string, description:string, name:string, enablePublicIP:boolean=true, allowSSH:boolean=true, allowHTTP:boolean=true):Promise<string>{
 
 ```javascript
 
